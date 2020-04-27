@@ -1,0 +1,123 @@
+{
+  "name": "Akhil T N",
+  "email": "tnakhil@gmail.com",
+  "phone": "+91-7829211234",
+  "title": "Software Engineer & Fullstack Developer",
+  "picture": "https://lh3.googleusercontent.com/kCqxOclwU9CdYPPXoBM7iLssOgQWMftae15roU_Cq3W9ukVzVxFKUqB69RqJWtrr5np5jVDNvI0EmYNdw31rFFihv4iX5H4Xy7-Jz5_coaPdFUgq7X_KE1Q5iBmoSY5S2ot2JeTo0Ik=w2400",
+  "aboutMe": "Experienced java developer with history or criminal activities",
+  "location": "Bangalore, India",
+  "birth": "1991-04-20",
+  "social": {
+    "linkedin": "https://example.com/",
+    "twitter": "https://example.com/",
+    "github": "https://example.com/",
+    "stackoverflow": "https://example.com/",
+    "dev": "https://example.com/"
+  },
+  "education": {
+    "institution": "Sathyabama University",
+    "degree": "Bachelor of Chemical Engineering",
+    "from_date": "2009-05-01T00:00:00.000Z",
+    "to_date": "2013-04-30T00:00:00.000Z"
+  },
+  "skills": {
+    "primarySkills": [
+      {
+        "skill": "Java",
+        "level": "9"
+      },
+      {
+        "skill": "Angular",
+        "level": "8"
+      },
+      {
+        "skill": "SQL",
+        "level": "8"
+      }
+    ],
+    "skillGroups": [
+      {
+        "group": "Programming Languages",
+        "list": [
+          "JAVA",
+          "JavaScript (ES6)",
+          "TypeScript",
+          "HTML",
+          "CSS/Sass",
+          "Python"
+        ]
+      },
+      {
+        "group": "Libraries & Frameworks",
+        "list": [
+          "SpringBoot",
+          "Spring Security",
+          "JavaScript (ES6)",
+          "TypeScript",
+          "HTML",
+          "CSS/Sass",
+          "Bootstrap",
+          "Cucumber",
+          "JUnit"
+        ]
+      },
+      {
+        "group": "Tools & Platform",
+        "list": [
+          "Agile",
+          "AWS",
+          "Cloud Foundry",
+          "Google Cloud",
+          "Docker",
+          "Git",
+          "Ansible",
+          "Firebase"
+        ]
+      },
+      {
+        "group": "Domain",
+        "list": [
+          "Banking & Financial Services",
+          "DevOps"
+        ]
+      }
+    ]
+  },
+  "experience": [
+    {
+      "company": "Oracle",
+      "designation": "Staff Consultant",
+      "role": "Full Stack Developer",
+      "from_date": "2014-01-13T00:00:00.000Z",
+      "to_date": "2019-02-15T00:00:00.000Z",
+      "description": [
+        "Write modern, performant, and robust code for multiple projects under a Banking Sector Client",
+        "Work with a variety of different languages, frameworks, and content management systems such as JavaScript, Bootstrap, JSP, PL/SQL, JAVA",
+        "Communicate and collaborate with multi-disciplinary teams of engineers, architects, clients, and stakeholders on a daily basis using Agile methadology"
+      ]
+    },
+    {
+      "company": "Cognizant",
+      "designation": "Associate",
+      "role": "Full Stack Developer",
+      "from_date": "2014-01-13T00:00:00.000Z",
+      "to_date": "2019-02-15T00:00:00.000Z",
+      "description": [
+        "Worked with a team of 8 in Agile to build a DevOps onboarding web application which served platform to the whole company",
+        "Developed Microservice applications using JAVA, Python and NodeJS, Angular which deployed in private cloud as a docker images"
+      ]
+    },
+    {
+      "company": "JP Morgan",
+      "designation": "Associate",
+      "role": "Full Stack Developer",
+      "from_date": "2014-01-13T00:00:00.000Z",
+      "to_date": "2019-02-15T00:00:00.000Z",
+      "description": [
+        "Developed and maintained code for in-house websites primarily using HTML, CSS, Sass, JavaScript, Angular, PL/SQL and JAVA",
+        "Server as a Security Associate for maintaing and resolving all security treat to the web application",
+        "Implemented OAuth2 and Spring Security for Human - App and App - App communications"
+      ]
+    }
+  ]
+}
