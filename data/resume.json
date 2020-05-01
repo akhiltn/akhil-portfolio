@@ -44,18 +44,17 @@
           "TypeScript",
           "HTML",
           "CSS/Sass",
-          "Python"
+          "Python",
+          "SQL",
+          "PL/SQL"
         ]
       },
       {
         "group": "Libraries & Frameworks",
         "list": [
+          "Angular",
           "SpringBoot",
           "Spring Security",
-          "JavaScript (ES6)",
-          "TypeScript",
-          "HTML",
-          "CSS/Sass",
           "Bootstrap",
           "Cucumber",
           "JUnit"

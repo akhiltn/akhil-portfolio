@@ -1,59 +1,94 @@
 let profile = {
   picture: "https://lh3.googleusercontent.com/kCqxOclwU9CdYPPXoBM7iLssOgQWMftae15roU_Cq3W9ukVzVxFKUqB69RqJWtrr5np5jVDNvI0EmYNdw31rFFihv4iX5H4Xy7-Jz5_coaPdFUgq7X_KE1Q5iBmoSY5S2ot2JeTo0Ik=w2400",
   name: "Akhil T Narendran",
-  description: "Software Engineer & Fullstack Developer",
-  bio:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur neque arcu, et sagittis ex eleifend at. Vestibulum consectetur in eros eget faucibus. Sed euismod in nisl a varius. Cras blandit dictum porttitor. Vestibulum vitae lacus euismod, condimentum magna vel, vulputate lectus. Etiam fermentum velit eu neque tincidunt semper. Integer id erat vitae magna tempor consectetur. Sed sed ultricies diam. Mauris ut eros tristique, efficitur sapien luctus, egestas erat. Curabitur maximus lacus dui, eget consequat nisl rhoncus et. Aenean posuere tortor nec justo finibus maximus. Pellentesque sollicitudin faucibus neque vel gravida. Praesent lobortis, lacus ut maximus sollicitudin, mauris sem rutrum nulla, laoreet vehicula nulla erat non massa.",
-  email: "guim.gonzalez@gmail.com",
+  description: "Fullstack Developer",
+  bio:[
+    "Experienced Software developer with history of working in the information technology and services industry primarily in Banking Domain",
+    "Good with project planning, project module management and meeting tough deadlines. Knowledge of cloud platforms like AWS, Cloud Foundry and other Private Cloud for developing and deploying applications.",
+    "Experience in self managing the whole project from the requirement to deployment. Familiarity with tools for collaborative development."
+],
+    email: "tnakhil@gmail.com",
   location: "Bangalore, India",
   birth: "1991-04-20", // YYYY-MM-DD format
   skills: [
-    "Java",
-    "CSS",
-    "HTML",
-    "Javascript",
+    "JAVA",
+    "JavaScript (ES6)",
     "TypeScript",
+    "HTML",
+    "CSS/Sass",
     "Python",
-    "Angular"
+    "SQL",
+    "PL/SQL",
+    "Angular",
+    "SpringBoot",
+    "Spring Security",
+    "Bootstrap",
+    "Cucumber",
+    "JUnit",
+    "Agile",
+    "AWS",
+    "Cloud Foundry",
+    "Google Cloud",
+    "Docker",
+    "Git",
+    "Ansible",
+    "Firebase"
   ],
   social: {
-    linkedin: "https://example.com/",
-    twitter: "https://example.com/",
+    linkedin: "https://in.linkedin.com/in/akhiltn",
+    twitter: "https://www.codeply.com/u/akhiltn",
     github: "https://example.com/",
     stackoverflow: "https://example.com/",
     dev: "https://example.com/"
   },
   experience: [
     {
-      title: "Job title 2",
-      company: "Company 2",
-      url: "https://example.com/",
-      location: "Barcelona, Spain",
-      description: "Description of the job",
-      from: "September 2017",
-      to: "Now"
+      company: "Oracle",
+      designation: "Staff Consultant",
+      role: "Full Stack Developer",
+      from_date: "January 2014",
+      to_date: "February 2019",
+      description: [
+        "Write modern, performant, and robust code for multiple projects under a Banking Sector Client",
+        "Work with a variety of different languages, frameworks, and content management systems such as JavaScript, Bootstrap, JSP, PL/SQL, JAVA",
+        "Communicate and collaborate with multi-disciplinary teams of engineers, architects, clients, and stakeholders on a daily basis using Agile methadology"
+      ]
     },
     {
-      title: "Job title 1",
-      company: "Company 1",
-      url: "https://example.com/",
-      location: "Barcelona, Spain",
-      description: "Description of the job",
-      from: "July 2018",
-      to: "February 2019"
+      company: "Cognizant",
+      designation: "Associate",
+      role: "Full Stack Developer",
+      from_date: "March 2019",
+      to_date: "September 2019",
+      description: [
+        "Worked with a team of 8 in Agile to build a DevOps onboarding web application which served platform to the whole company",
+        "Developed Microservice applications using JAVA, Python and NodeJS, Angular which deployed in private cloud as a docker images"
+      ]
+    },
+    {
+      company: "JP Morgan",
+      designation: "Associate",
+      role: "Full Stack Developer",
+      from_date: "October 2019",
+      to_date: "Till date",
+      description: [
+        "Developed and maintained code for in-house websites primarily using HTML, CSS, Sass, JavaScript, Angular, PL/SQL and JAVA",
+        "Server as a Security Associate for maintaing and resolving all security treat to the web application",
+        "Implemented OAuth2 and Spring Security for Human - App and App - App communications"
+      ]
     }
   ],
   education: [
     {
-      school: "Universitat Autònoma de Barcelona",
+      school: "Sathyabama University",
       degree: "Engineering",
-      fieldOfStudy: "Computer Science",
-      location: "Barcelona, Spain",
-      from: "September 2016",
-      to: "Now"
+      fieldOfStudy: "Bachelor of Chemical Engineering",
+      location: "Chennai, India",
+      from: "2009",
+      to: " 2013"
     }
   ],
-  quote: "Experianced JAVA Fullstack Developer"
+  quote: "No other developers required!"
 };
 
 let page = {

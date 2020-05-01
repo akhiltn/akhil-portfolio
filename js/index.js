@@ -62,13 +62,14 @@ function fillTemplate() {
   // Experience
   for (var i = 0; i < profile.experience.length; i++) {
     var experienceTemplate = $("#credsTemplate");
-    experienceTemplate.find(".mb-0").text(profile.experience[i].title);
-    experienceTemplate.find(".mb-3").text(profile.experience[i].company);
-    experienceTemplate.find("p").text(profile.experience[i].description);
-    experienceTemplate.find(".location").text(profile.experience[i].location);
+    experienceTemplate.find(".mb-0").text(profile.experience[i].role);
+    experienceTemplate.find(".mb-3").text(profile.experience[i].designation+' @ '+profile.experience[i].company);
+    experienceTemplate.find(".para1").text(profile.experience[i].description[0]);
+    experienceTemplate.find(".para2").text(profile.experience[i].description[1]);
+    experienceTemplate.find(".para3").text(profile.experience[i].description[2]);
     experienceTemplate
       .find(".date")
-      .text(profile.experience[i].from + " - " + profile.experience[i].to);
+      .text(profile.experience[i].from_date + " - " + profile.experience[i].to_date);
 
     $("#experienceContainer").append(experienceTemplate.html());
     if (i < profile.experience.length - 1)
@@ -79,7 +80,9 @@ function fillTemplate() {
     var educationTemplate = $("#credsTemplate");
     educationTemplate.find(".mb-0").text(profile.education[i].school);
     educationTemplate.find(".mb-3").text(profile.education[i].degree);
-    educationTemplate.find("p").text(profile.education[i].fieldOfStudy);
+    educationTemplate.find(".para1").text(profile.education[i].fieldOfStudy);
+    experienceTemplate.find(".para2").text('');
+    experienceTemplate.find(".para3").text('');
     educationTemplate.find(".location").text(profile.education[i].location);
     educationTemplate
       .find(".date")
